@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.gF7ukvT7.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"manual/setup_vehicle.md","filePath":"manual/setup_vehicle.md"}'),s={name:"manual/setup_vehicle.md"};function c(n,r,o,p,_,i){return a(),t("div")}const u=e(s,[["render",c]]);export{m as __pageData,u as default};
