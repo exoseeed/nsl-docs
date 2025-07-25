@@ -7,12 +7,15 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "deploy": "gh-pages -d docs/.vitepress/dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "terser": "^5.16.0",
     "vitepress": "^1.6.3"
   },
   "directories": {
@@ -321,7 +324,6 @@
     "supports-color": "^7.2.0",
     "supports-preserve-symlinks-flag": "^1.0.0",
     "svgo": "^4.0.0",
-    "terser": "^4.8.1",
     "thenify": "^3.3.1",
     "thenify-all": "^1.6.0",
     "timsort": "^0.3.0",
