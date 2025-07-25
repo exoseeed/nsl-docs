@@ -5,6 +5,7 @@ export default defineConfig({
   lang: 'en-EN',
   title: "NSL Documentation",
   description: "A NSL documentation",
+  base: '/nsl-docs/',
   
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
